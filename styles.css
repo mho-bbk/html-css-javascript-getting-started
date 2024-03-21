@@ -11,6 +11,11 @@ body {
     background-color: darkgray;
 }
 
+h1 {
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
 p {
     margin: .5em 0 .5em 0;
 }
@@ -74,4 +79,14 @@ article {
     aside {
         margin-left: 2%;
     }
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.sub-title {
+    background-color: white;
+    font-size: 1.5em;
+    padding: 10px;
 }
