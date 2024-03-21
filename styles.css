@@ -12,7 +12,7 @@ body {
 }
 
 p {
-    margin: .5em 0 0 .5em;
+    margin: .5em 0 .5em 0;
 }
 
 header {
@@ -64,4 +64,14 @@ aside {
 
 article {
     width: 75%;
+}
+
+@media only screen and (min-width:768px) {
+    main {
+        display: flex;
+    }
+
+    aside {
+        margin-left: 2%;
+    }
 }
